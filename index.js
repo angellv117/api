@@ -6,11 +6,6 @@ let notes = {
     'D': 'Te quedan 100000000'
 }
 
-app.get('/api/auth', (request, response) => {
-  response.json(notes)
-})
-
-
 app.post('/api/auth', (request, response) => {
   response.json(notes)
 })
