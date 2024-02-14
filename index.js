@@ -6,6 +6,10 @@ let notes = {
     'D': 'Te quedan 100000000'
 }
 
+app.post('/', (request, response) => {
+  response.send("Hola mundo")
+})
+
 app.post('/api/auth', (request, response) => {
   response.json(notes)
 })
