@@ -6,7 +6,7 @@ let notes = {
     'D': 'Te quedan 100000000'
 }
 
-app.post('/', (request, response) => {
+app.get('/', (request, response) => {
   response.send("Hola mundo")
 })
 
