@@ -10,7 +10,7 @@ app.get('/', (request, response) => {
   response.send("Hola mundo")
 })
 
-app.post('/api/auth', (request, response) => {
+app.post('/Auth', (request, response) => {
   response.json(notes)
 })
 
